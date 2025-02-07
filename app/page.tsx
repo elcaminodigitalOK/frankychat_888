@@ -1,5 +1,7 @@
-import HomeInterface from '@/components/home-interface'
+'use client'
 
-export default function Page() {
+import { HomeInterface } from '@/components/home-interface'
+
+export default function Home() {
   return <HomeInterface />
 }
